@@ -175,6 +175,17 @@
 
         </dependency>
 
+        <!-- PostgreSQL is used by the managed production database. -->
+        <dependency>
+
+            <groupId>org.postgresql</groupId>
+
+            <artifactId>postgresql</artifactId>
+
+            <scope>runtime</scope>
+
+        </dependency>
+
 
         <!-- =================================================
              SWAGGER / OPENAPI
