@@ -137,6 +137,24 @@ public class SecurityConfig {
 
 
                                 // =================================================
+                                // REACT SINGLE-PAGE APP
+                                // =================================================
+                                // The production React build is served by this
+                                // Spring Boot service. Keep the entry page and
+                                // compiled assets public; API endpoints remain
+                                // protected by their explicit rules below.
+
+                                .requestMatchers(
+                                        "/",
+                                        "/index.html",
+                                        "/assets/**",
+                                        "/favicon.svg",
+                                        "/icons.svg"
+                                )
+                                .permitAll()
+
+
+                                // =================================================
                                 // SWAGGER
                                 // =================================================
 
