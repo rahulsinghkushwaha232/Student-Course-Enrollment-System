@@ -272,20 +272,27 @@ Student-Course-Enrollment-System/
 
 <div align="center">
 
-### **Rahul Singh Kushwaha**
-*Full Stack Java & React Developer*
+<a href="https://github.com/rahulsinghkushwaha232">
+  <img src="https://github.com/rahulsinghkushwaha232.png" width="120px" alt="Rahul Singh Kushwaha" style="border-radius:50%;" />
+</a>
+
+### **[Rahul Singh Kushwaha](https://github.com/rahulsinghkushwaha232)**
+*Lead Full Stack Developer & System Architect*
 
 [![GitHub Profile](https://img.shields.io/badge/GitHub-rahulsinghkushwaha232-181717?style=for-the-badge&logo=github)](https://github.com/rahulsinghkushwaha232)
 [![Project Repo](https://img.shields.io/badge/Repository-Student--Course--Enrollment--System-blue?style=for-the-badge&logo=git)](https://github.com/rahulsinghkushwaha232/Student-Course-Enrollment-System)
-
-**Role & Contributions:**
-- 🏛️ Full architecture design (Spring Boot REST API + React SPA).
-- 🔒 Secure authentication system with JWT and Role-Based Access Control.
-- 🎨 Complete user interface design with responsive layouts and Dark/Light mode.
-- 💳 Simulated PhonePe payment integration and enrollment state machine.
-- 🐳 Containerization with Docker multi-stage builds and Render cloud deployment.
+[![All Contributors](https://img.shields.io/badge/Contributors-1-brightgreen?style=for-the-badge)](./CONTRIBUTORS.md)
 
 </div>
+
+### 🛠️ Role & Core Contributions:
+- 🏛️ **Full Stack Architecture**: Designed and implemented the complete Spring Boot 3 + React 19 architecture.
+- 🔒 **Security & Identity**: Configured Spring Security 6 with stateless JWT authentication, RBAC, and BCrypt encryption.
+- 🎨 **Modern User Interface**: Developed reactive UI with dynamic Dashboards, course catalog, student profiles, and Theme toggles.
+- 💳 **Payment Gateway Simulation**: Implemented realistic PhonePe transaction workflows and real-time status transitions.
+- 🐳 **DevOps & Cloud Hosting**: Automated containerization with multi-stage Docker and Render Blueprint continuous deployment.
+
+For complete contribution guidelines, see [CONTRIBUTORS.md](./CONTRIBUTORS.md).
 
 ---
 
