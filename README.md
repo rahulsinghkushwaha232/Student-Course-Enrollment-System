@@ -17,9 +17,9 @@
 
 <br/>
 
-[🚀 **Live Demo on Render**](https://student-course-enrollment.onrender.com) &nbsp;•&nbsp;
+[🚀 **Live Demo on Render**](https://student-course-enrollment-h8i0.onrender.com) &nbsp;•&nbsp;
 [💻 **GitHub Repository**](https://github.com/rahulsinghkushwaha232/Student-Course-Enrollment-System) &nbsp;•&nbsp;
-[📖 **Swagger API Docs**](https://student-course-enrollment.onrender.com/swagger-ui/index.html) &nbsp;•&nbsp;
+[📖 **Swagger API Docs**](https://student-course-enrollment-h8i0.onrender.com/swagger-ui/index.html) &nbsp;•&nbsp;
 [🐞 **Report Bug**](https://github.com/rahulsinghkushwaha232/Student-Course-Enrollment-System/issues)
 
 </div>
@@ -30,9 +30,9 @@
 
 | Resource | Link | Description |
 | :--- | :--- | :--- |
-| 🌐 **Live Website (Render)** | [student-course-enrollment.onrender.com](https://student-course-enrollment.onrender.com) | Live deployed full-stack application |
+| 🌐 **Live Website (Render)** | [student-course-enrollment-h8i0.onrender.com](https://student-course-enrollment-h8i0.onrender.com) | Live deployed full-stack application |
 | 🐙 **GitHub Repository** | [github.com/rahulsinghkushwaha232/Student-Course-Enrollment-System](https://github.com/rahulsinghkushwaha232/Student-Course-Enrollment-System) | Complete source code & documentation |
-| 📑 **API Documentation** | [Swagger UI Live](https://student-course-enrollment.onrender.com/swagger-ui/index.html) | Interactive OpenAPI 3.0 testing console |
+| 📑 **API Documentation** | [Swagger UI Live](https://student-course-enrollment-h8i0.onrender.com/swagger-ui/index.html) | Interactive OpenAPI 3.0 testing console |
 | 👤 **Lead Author** | [Rahul Singh Kushwaha](https://github.com/rahulsinghkushwaha232) | Project Creator & Full Stack Developer |
 
 > ℹ️ **Note on Live Render URL:** If your Render service was assigned a custom subdomain (e.g. `student-course-enrollment-xxxx.onrender.com`), verify your exact URL in the [Render Dashboard](https://dashboard.render.com). Because Render free tier spins down inactive instances, please allow 30–50 seconds for the initial cold start.
