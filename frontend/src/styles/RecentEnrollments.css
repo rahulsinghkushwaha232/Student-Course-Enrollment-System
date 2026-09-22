@@ -1,0 +1,53 @@
+.recent-enrollments{
+
+    margin-top:35px;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.recent-enrollments h2{
+
+    margin-bottom:20px;
+
+}
+
+.recent-enrollments table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.recent-enrollments th{
+
+    background:#ea580c;
+
+    color:white;
+
+    padding:15px;
+
+    text-align:left;
+
+}
+
+.recent-enrollments td{
+
+    padding:15px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+.recent-enrollments tr:hover{
+
+    background:#f7f9fc;
+
+}

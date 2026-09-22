@@ -1,0 +1,384 @@
+.global-search {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  z-index: 1000;
+}
+
+
+/* =========================
+   SEARCH BOX
+========================= */
+
+.global-search-box {
+  width: 100%;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+
+  background: #ffffff;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 12px;
+
+  padding: 0 14px;
+
+  box-sizing: border-box;
+
+  transition: 0.2s ease;
+}
+
+
+.global-search-box:focus-within {
+  border-color: #2563eb;
+
+  box-shadow:
+    0 0 0 3px rgba(37, 99, 235, 0.10);
+}
+
+
+.search-icon {
+  font-size: 18px;
+
+  margin-right: 10px;
+
+  flex-shrink: 0;
+}
+
+
+.global-search-box input {
+  width: 100%;
+
+  border: none;
+
+  outline: none;
+
+  background: transparent;
+
+  font-size: 14px;
+
+  color: #1e293b;
+}
+
+
+.global-search-box input::placeholder {
+  color: #94a3b8;
+}
+
+
+.clear-search {
+  border: none;
+
+  background: transparent;
+
+  cursor: pointer;
+
+  font-size: 14px;
+
+  color: #64748b;
+
+  padding: 4px;
+}
+
+
+.clear-search:hover {
+  color: #ef4444;
+}
+
+
+/* =========================
+   RESULTS
+========================= */
+
+.search-results {
+  position: absolute;
+
+  top: 56px;
+
+  left: 0;
+
+  width: 100%;
+
+  max-height: 480px;
+
+  overflow-y: auto;
+
+  background: #ffffff;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 14px;
+
+  box-shadow:
+    0 15px 40px rgba(15, 23, 42, 0.15);
+
+  padding: 8px;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================
+   SECTION
+========================= */
+
+.search-section {
+  margin-bottom: 8px;
+}
+
+
+.search-section:last-child {
+  margin-bottom: 0;
+}
+
+
+.search-section-title {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 10px 12px;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  color: #475569;
+}
+
+
+.search-section-title span {
+  min-width: 22px;
+
+  height: 22px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #eff6ff;
+
+  color: #2563eb;
+
+  font-size: 11px;
+}
+
+
+/* =========================
+   RESULT ITEM
+========================= */
+
+.search-result-item {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 10px 12px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition: 0.15s ease;
+}
+
+
+.search-result-item:hover {
+  background: #f8fafc;
+}
+
+
+/* =========================
+   ICON
+========================= */
+
+.result-icon {
+  width: 38px;
+
+  height: 38px;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 18px;
+
+  flex-shrink: 0;
+}
+
+
+.student-result {
+  background: #eff6ff;
+}
+
+
+.course-result {
+  background: #f0fdf4;
+}
+
+
+.enrollment-result {
+  background: #fff7ed;
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.result-content {
+  flex: 1;
+
+  min-width: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 3px;
+}
+
+
+.result-content strong {
+  color: #1e293b;
+
+  font-size: 13px;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+.result-content small {
+  color: #94a3b8;
+
+  font-size: 11px;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+.result-type {
+  font-size: 10px;
+
+  font-weight: 600;
+
+  color: #64748b;
+
+  background: #f1f5f9;
+
+  padding: 4px 7px;
+
+  border-radius: 6px;
+
+  flex-shrink: 0;
+}
+
+
+/* =========================
+   LOADING
+========================= */
+
+.search-loading {
+  padding: 25px;
+
+  text-align: center;
+
+  color: #64748b;
+
+  font-size: 13px;
+}
+
+
+/* =========================
+   EMPTY
+========================= */
+
+.no-search-results {
+  text-align: center;
+
+  padding: 35px 20px;
+
+  color: #64748b;
+}
+
+
+.no-search-results div {
+  font-size: 28px;
+
+  margin-bottom: 8px;
+}
+
+
+.no-search-results strong {
+  display: block;
+
+  color: #334155;
+
+  font-size: 14px;
+
+  margin-bottom: 5px;
+}
+
+
+.no-search-results p {
+  margin: 0;
+
+  font-size: 12px;
+
+  color: #94a3b8;
+}
+
+
+/* =========================
+   SCROLLBAR
+========================= */
+
+.search-results::-webkit-scrollbar {
+  width: 6px;
+}
+
+
+.search-results::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+
+  border-radius: 10px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  .global-search {
+    max-width: 100%;
+  }
+
+  .search-results {
+    width: 100%;
+  }
+
+}

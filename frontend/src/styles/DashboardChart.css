@@ -1,0 +1,19 @@
+.chart-container{
+
+    background:white;
+
+    margin-top:35px;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.chart-container h2{
+
+    margin-bottom:20px;
+
+    color:#222;
+}

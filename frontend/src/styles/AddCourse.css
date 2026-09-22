@@ -1,0 +1,387 @@
+/* =========================================================
+   ADD COURSE PAGE
+========================================================= */
+
+.add-course-page {
+  width: 100%;
+  max-width: 1100px;
+
+  margin: 0 auto;
+  padding: 32px;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   PAGE HEADER
+========================================================= */
+
+.add-course-header {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 20px;
+
+  margin-bottom: 24px;
+}
+
+
+.add-course-header h1 {
+  margin: 0 0 6px 0;
+
+  color: #0f172a;
+
+  font-size: 30px;
+
+  font-weight: 700;
+}
+
+
+.add-course-header p {
+  margin: 0;
+
+  color: #64748b;
+
+  font-size: 14px;
+}
+
+
+/* =========================================================
+   BACK BUTTON
+========================================================= */
+
+.back-course-btn {
+  height: 44px;
+
+  padding: 0 18px;
+
+  border: 1px solid #cbd5e1;
+
+  border-radius: 9px;
+
+  background: #ffffff;
+
+  color: #334155;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+
+.back-course-btn:hover {
+  background: #f8fafc;
+
+  transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   ERROR
+========================================================= */
+
+.add-course-error {
+  width: 100%;
+
+  margin-bottom: 20px;
+
+  padding: 13px 16px;
+
+  box-sizing: border-box;
+
+  background: #fef2f2;
+
+  border: 1px solid #fecaca;
+
+  border-radius: 10px;
+
+  color: #b91c1c;
+
+  font-size: 14px;
+
+  font-weight: 500;
+}
+
+
+/* =========================================================
+   FORM CARD
+========================================================= */
+
+.add-course-card {
+  width: 100%;
+
+  padding: 32px;
+
+  box-sizing: border-box;
+
+  background: #ffffff;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 16px;
+
+  box-shadow:
+    0 5px 18px rgba(15, 23, 42, 0.06);
+}
+
+
+/* =========================================================
+   FORM
+========================================================= */
+
+.add-course-form {
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 22px;
+}
+
+
+/* =========================================================
+   FORM GROUP
+========================================================= */
+
+.form-group {
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+
+.form-group label {
+  color: #0f172a;
+
+  font-size: 14px;
+
+  font-weight: 600;
+}
+
+
+.form-group label span {
+  margin-left: 4px;
+
+  color: #dc2626;
+}
+
+
+/* =========================================================
+   INPUT
+========================================================= */
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+
+  padding: 12px 14px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #cbd5e1;
+
+  border-radius: 9px;
+
+  background: #ffffff;
+
+  color: #0f172a;
+
+  font-size: 14px;
+
+  font-family: inherit;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.form-group input {
+  height: 46px;
+}
+
+
+.form-group textarea {
+  min-height: 120px;
+
+  resize: vertical;
+}
+
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #94a3b8;
+}
+
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #2563eb;
+
+  box-shadow:
+    0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+
+/* =========================================================
+   ACTION BUTTONS
+========================================================= */
+
+.add-course-actions {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: flex-end;
+
+  align-items: center;
+
+  gap: 12px;
+
+  padding-top: 8px;
+}
+
+
+/* =========================================================
+   CANCEL
+========================================================= */
+
+.cancel-course-btn {
+  height: 46px;
+
+  padding: 0 22px;
+
+  border: 1px solid #cbd5e1;
+
+  border-radius: 9px;
+
+  background: #ffffff;
+
+  color: #475569;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+
+.cancel-course-btn:hover {
+  background: #f8fafc;
+}
+
+
+/* =========================================================
+   SAVE
+========================================================= */
+
+.save-course-btn {
+  height: 46px;
+
+  padding: 0 24px;
+
+  border: none;
+
+  border-radius: 9px;
+
+  background: #2563eb;
+
+  color: #ffffff;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.save-course-btn:hover {
+  background: #1d4ed8;
+
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 5px 12px rgba(37, 99, 235, 0.25);
+}
+
+
+.save-course-btn:disabled,
+.cancel-course-btn:disabled {
+  opacity: 0.6;
+
+  cursor: not-allowed;
+
+  transform: none;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+  .add-course-page {
+    padding: 18px;
+  }
+
+
+  .add-course-header {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+
+  .add-course-header h1 {
+    font-size: 25px;
+  }
+
+
+  .back-course-btn {
+    width: 100%;
+  }
+
+
+  .add-course-card {
+    padding: 22px 18px;
+  }
+
+
+  .add-course-actions {
+    flex-direction: column-reverse;
+  }
+
+
+  .cancel-course-btn,
+  .save-course-btn {
+    width: 100%;
+  }
+
+}

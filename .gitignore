@@ -1,0 +1,46 @@
+# =============================================
+# ROOT LEVEL
+# =============================================
+node_modules/
+student-course-enrollment/
+package-lock.json
+
+# =============================================
+# JAVA / SPRING BOOT (Backend)
+# =============================================
+StudentCourseEnrollmentSystem/target/
+StudentCourseEnrollmentSystem/uploads/
+StudentCourseEnrollmentSystem/.maven-cache/
+StudentCourseEnrollmentSystem/Dockerfile.txt
+*.class
+*.jar
+*.war
+
+# =============================================
+# NODE / VITE (Frontend)
+# =============================================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# =============================================
+# IDE / EDITOR
+# =============================================
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+
+# =============================================
+# OS FILES
+# =============================================
+.DS_Store
+Thumbs.db
+
+# =============================================
+# ZIP / ARCHIVES
+# =============================================
+*.zip

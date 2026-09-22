@@ -1,0 +1,333 @@
+/* ================================
+   ABOUT PAGE
+================================ */
+
+.about-page {
+  padding: 30px;
+  min-height: calc(100vh - 70px);
+  background: #f5f7fb;
+}
+
+/* ================================
+   ABOUT HEADER
+================================ */
+
+.about-header {
+  margin-bottom: 30px;
+}
+
+.about-header h1 {
+  margin: 0 0 8px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.about-header p {
+  margin: 0;
+  color: #64748b;
+  font-size: 15px;
+}
+
+/* ================================
+   ABOUT HERO CARD
+================================ */
+
+.about-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 35px;
+  margin-bottom: 25px;
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+  border-radius: 18px;
+  color: white;
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.18);
+}
+
+.about-hero-content {
+  flex: 1;
+}
+
+.about-hero-content h2 {
+  margin: 0 0 12px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.about-hero-content p {
+  margin: 0;
+  max-width: 700px;
+  line-height: 1.7;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.about-logo {
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  font-size: 55px;
+  flex-shrink: 0;
+}
+
+/* ================================
+   ABOUT CARDS
+================================ */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-bottom: 25px;
+}
+
+.about-card {
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 15px rgba(15, 23, 42, 0.05);
+  transition: all 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.09);
+}
+
+.about-card-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  background: #eff6ff;
+  color: #2563eb;
+  font-size: 24px;
+}
+
+.about-card h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #1e293b;
+}
+
+.about-card p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* ================================
+   TECHNOLOGY SECTION
+================================ */
+
+.about-section {
+  margin-bottom: 25px;
+  padding: 28px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(15, 23, 42, 0.05);
+}
+
+.about-section h2 {
+  margin: 0 0 20px;
+  font-size: 22px;
+  color: #1e293b;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tech-item {
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.tech-item:hover {
+  background: #eff6ff;
+  border-color: #93c5fd;
+  color: #2563eb;
+}
+
+/* ================================
+   FEATURES
+================================ */
+
+.features-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  border-radius: 10px;
+  background: #f8fafc;
+  color: #475569;
+  font-size: 14px;
+}
+
+.feature-item svg {
+  color: #2563eb;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+/* ================================
+   DEVELOPER / PROJECT INFO
+================================ */
+
+.about-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.info-box {
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+}
+
+.info-box h3 {
+  margin: 0 0 15px;
+  color: #1e293b;
+  font-size: 18px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 11px 0;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 14px;
+}
+
+.info-row:last-child {
+  border-bottom: none;
+}
+
+.info-label {
+  color: #64748b;
+}
+
+.info-value {
+  color: #1e293b;
+  font-weight: 600;
+  text-align: right;
+}
+
+/* ================================
+   FOOTER
+================================ */
+
+.about-footer {
+  margin-top: 25px;
+  padding: 20px;
+  text-align: center;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.about-footer strong {
+  color: #2563eb;
+}
+
+/* ================================
+   RESPONSIVE DESIGN
+================================ */
+
+@media (max-width: 992px) {
+  .about-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-hero {
+    padding: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 20px;
+  }
+
+  .about-hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-logo {
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-info {
+    grid-template-columns: 1fr;
+  }
+
+  .features-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-page {
+    padding: 15px;
+  }
+
+  .about-header h1 {
+    font-size: 24px;
+  }
+
+  .about-hero {
+    padding: 22px;
+  }
+
+  .about-hero-content h2 {
+    font-size: 23px;
+  }
+
+  .about-section {
+    padding: 20px;
+  }
+
+  .info-row {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .info-value {
+    text-align: left;
+  }
+}

@@ -1,0 +1,53 @@
+.recent-students{
+
+    background:white;
+
+    margin-top:40px;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.recent-students h2{
+
+    margin-bottom:20px;
+
+}
+
+.recent-students table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.recent-students th{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:15px;
+
+    text-align:left;
+
+}
+
+.recent-students td{
+
+    padding:15px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+.recent-students tr:hover{
+
+    background:#f7f9fc;
+
+}
