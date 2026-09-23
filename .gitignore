@@ -3,7 +3,7 @@
 # =============================================
 node_modules/
 student-course-enrollment/
-package-lock.json
+/package-lock.json
 
 # =============================================
 # JAVA / SPRING BOOT (Backend)
